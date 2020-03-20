@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            label, input, textarea {
+                display: block;
+            }
+
+            input, textarea {
+                box-sizing: border-box;
+                margin-bottom: 20px;
+                padding: 10px;
+                border: 2px dotted blue;
+                width: 200px;
+            }
+        </style>
+    </head>
+    <body>
+        <form>
+            <label>Forename</label>
+            <input name="forename" type="text" />
+            <label>Message</label>
+            <textarea name="message"></textarea>
+            <input type="submit" value="Send" />
+        </form>
+    </body>
+</html>

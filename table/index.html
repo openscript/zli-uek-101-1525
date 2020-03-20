@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            table {
+                border-collapse: collapse;
+                transition: 2s;
+            }
+
+            td, th {
+                border: 1px solid red;
+            }
+
+            tr:hover {
+                background-color: #000;
+                color: #FFF;
+            }
+
+            table:hover {
+                transform: rotate(500deg);
+            }
+        </style>
+    </head>
+    <body>
+        <table>
+            <thead>
+                <tr>
+                    <th>Vorname</th>
+                    <th>Nachname</th>
+                    <th>Note</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Jonah</td>
+                    <td>Gutknecht</td>
+                    <td>6.0</td>
+                </tr>
+                <tr>
+                    <td>Chuck</td>
+                    <td>Norris</td>
+                    <td>8.0</td>
+                </tr>
+                <tr>
+                    <td>Tim</td>
+                    <td>Berners-Lee</td>
+                    <td>10.0</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3">
+                        Durchschnitt: 8.0
+                    </td>
+                </tr>
+            </tfoot>
+        </table>
+    </body>
+</html>
